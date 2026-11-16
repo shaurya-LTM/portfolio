@@ -21,5 +21,5 @@ tabs.forEach((tab) => tab.addEventListener('click', () => {
   tabs.forEach((button) => button.classList.toggle('active', button === tab));
   student.classList.toggle('active', isStudent);
   parent.classList.toggle('active', !isStudent);
-  greeting.textContent = isStudent ? 'Good evening, Arjun' : 'Parent overview';
+  greeting.textContent = isStudent ? 'Good evening, Shaurya' : 'Parent overview';
 }));
